@@ -1,0 +1,12 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h3><b>Twój adres IPv4 to:</b> @ViewData["IP_Addressv4"]</h3>
+    <h3><b>Twój adres IPv6 to:</b> @ViewData["IP_Addressv6"]</h3>
+    <h3><b>Twój lokalny adres IPv4 to:</b> @ViewData["IP_Addressv4local"]</h3>
+    <h3><b>Twój lokalny adres IPv6 to:</b> @ViewData["IP_Addressv6local"]</h3>
+</div>

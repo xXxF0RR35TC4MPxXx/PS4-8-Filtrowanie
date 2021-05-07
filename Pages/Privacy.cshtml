@@ -1,0 +1,14 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Tutaj wpisałem to tylko po to, żeby pokazać że się nie wyświetla. Miało być tylko w indexie i jest ;)</p>
+<div class="text-center">
+    <h3><b>Twój adres IPv4 to:</b> @ViewData["IP_Addressv4"]</h3>
+    <h3><b>Twój adres IPv6 to:</b> @ViewData["IP_Addressv6"]</h3>
+    <h3><b>Twój lokalny adres IPv4 to:</b> @ViewData["IP_Addressv4local"]</h3>
+    <h3><b>Twój lokalny adres IPv6 to:</b> @ViewData["IP_Addressv6local"]</h3>
+</div>
